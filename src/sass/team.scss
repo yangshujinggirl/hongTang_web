@@ -9,6 +9,9 @@
       &:last-child {
         display: none;
       }
+      .l-p {
+        width: 452px;
+      }
       .l-p,.r-p {
         display: inline-block;
         vertical-align: middle;
@@ -70,6 +73,9 @@
       }
       .infos {
         padding-left:30px;
+        width: 70%;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
         .header {
           font-size: 20px;
           color: #484848;
