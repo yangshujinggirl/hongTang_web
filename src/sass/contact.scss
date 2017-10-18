@@ -1,0 +1,31 @@
+.contact-pages {
+  .wrap {
+    width: 1000px;
+  }
+  .list {
+    color: #fff;
+    padding: 60px 0;
+    .item {
+      float: left;
+      width: 460px;
+      height: 190px;
+      padding: 50px 0 50px 30px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      background-color: #fff;
+      color: #333;
+      cursor: pointer;
+      &:hover {
+        color: #fff;
+        background-color: #00a0e9;
+      }
+      &:nth-child(2n) {
+        float: right;
+      }
+    }
+    .name {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  }
+}

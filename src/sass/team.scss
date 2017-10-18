@@ -1,0 +1,85 @@
+.team-pages {
+  .part-one {
+    background-color: #f8f8f8;
+    color: #767676;
+    font-size: 16px;
+    padding-top: 50px;
+    .detail-item {
+      float: left;
+      &:last-child {
+        display: none;
+      }
+      .l-p,.r-p {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .header {
+        font-size: 20px;
+        color: #484848;
+        margin-bottom: 30px;
+        .name {
+          font-size: 24px;
+          color: #101010;
+        }
+      }
+      .content {
+        line-height: 200%;
+      }
+    }
+    .label {
+      float: right;
+      padding-top: 90px;
+      .item {
+        width: 272px;
+        height: 100px;
+        background-color: #fff;
+        cursor: pointer;
+        border-bottom: 1px solid #e0e0e0;
+        &:hover {
+          background-color: #f1f1f1;
+        }
+        img {
+          display: inline-block;
+          vertical-align: middle;
+        }
+        .person-info {
+          display: inline-block;
+          vertical-align: middle;
+          padding: 30px 0 0 28px;
+        }
+        .name {
+          color: #484848;
+        }
+      }
+    }
+  }
+  .part-two {
+    .list {
+      font-size: 0;
+      padding: 60px 0;
+    }
+    .item {
+      width: 50%;
+      padding: 30px 0;
+      font-size: 14px;
+      display: inline-block;
+      vertical-align: top;
+      .pics,.infos {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .infos {
+        padding-left:30px;
+        .header {
+          font-size: 20px;
+          color: #484848;
+          margin-bottom: 20px;
+          .name {
+            font-size: 24px;
+            color: #101010;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+.tenement-pages {
+  .tenement-content {
+    padding:88px 0;
+    .header-content {
+      width: 36%;
+      color: #767676;
+      margin:0 auto;
+    }
+    .module-title {
+      text-align: center;
+      font-size: 32px;
+      color: #101010;
+      font-size: 32px;
+      padding-bottom: 6px;
+      position: relative;
+      margin-bottom: 20px;
+      &:after {
+        content: '';
+        width: 46px;
+        height: 4px;
+        background-color: #101010;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+      }
+    }
+    .info-text {
+      line-height: 200%;
+    }
+    .tenement-list {
+      padding-top: 100px;
+      text-align: left;
+      .tenement-item{
+        &:not(:last-child) {
+          margin-bottom: 80px;
+        }
+      }
+      .l-p {
+        width: 39%;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .r-p {
+        width: 60%;
+        padding:0 4%;
+        box-sizing: border-box;
+        display: inline-block;
+        vertical-align: middle;
+        .name {
+          font-size: 24px;
+          color: #101010;
+          margin-bottom: 20px;
+        }
+        .info {
+          line-height: 200%;
+          margin-bottom: 50px;
+          color: #484848;
+        }
+        .detail-btn {
+          display: block;
+          font-size: 14px;
+          text-align: center;
+          width: 122px;
+          height: 42px;
+          line-height: 42px;
+          color: #0070c9;
+          border: 1px solid #0070c9;
+          &:hover {
+            background-color: #0070c9;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
