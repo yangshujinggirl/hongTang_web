@@ -39,8 +39,23 @@
       }
       .l-p {
         width: 39%;
+        height: 245px;
+        overflow: hidden;
         display: inline-block;
         vertical-align: middle;
+        .ten-pic {
+          cursor: pointer;
+          transition: all 0.8s;
+          -moz-transition: all 0.8s;
+          -webkit-transition: all 0.8s;
+          -o-transition: all 0.8s;
+          &:hover {
+            transform: scale(1.4);
+            -moz-transform: scale(1.4);
+            -webkit-transform: scale(1.4);
+            -o-transform: scale(1.4);
+          }
+        }
       }
       .r-p {
         width: 60%;
