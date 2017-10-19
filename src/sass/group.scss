@@ -53,7 +53,6 @@
         font-size: 22px;
         color: #484848;
         .big {
-          font-weight: bold;
           font-size: 40px;
           color: #101010;
           padding-top: 10px;
@@ -67,6 +66,15 @@
         font-size: 24px;
         color: #101010;
         margin-bottom: 10px;
+        .desc {
+          font-size: 14px;
+          color: #484848;
+          padding-top: 10px;
+          display: -webkit-box;
+          -webkit-box-orient:vertical;
+          -webkit-line-clamp:2;
+          overflow: hidden;
+        }
       }
     }
   }
