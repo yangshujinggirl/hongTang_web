@@ -46,15 +46,11 @@ html,body {
         background-color: #fff;
       }
       .text-show {
-        height: 100%;
         padding: 26px 0 0 26px;
         box-sizing: border-box;
         font-size: 18px;
         color: #101010;
-        .en {
-          font-size: 24px;
-          padding-top: 10px;
-        }
+        margin-bottom: 72px;
       }
       .conts {
         padding: 26px 26px 0 26px;
@@ -85,6 +81,9 @@ html,body {
         width: 64%;
         background-color: #004a94;
       }
+      .en {
+        font-size: 24px;
+      }
     }
     .item-two {
       width: 38.3%;
@@ -106,37 +105,55 @@ html,body {
       .r-p {
         width: 47%;
       }
+      .plus-wrap {
+        display: block;
+        text-align: right;
+        padding-right: 20px;
+      }
+      .en {
+        font-size: 16px;
+      }
     }
     .copy-right {
       text-align: center;
+      img {
+        margin-left: 6px;
+      }
     }
   }
 }
-// .swiper-container {
-//     padding-bottom: 50px;
-// }
-// .swiper-pagination-bullet {
-//   width: 6px;
-//   height: 6px;
-// }
-// .swiper-pagination {
-//   text-align: left;
-//   padding-left: 26px;
-// }
-// .swiper-pagination-bullet-active {
-//   background-color: #fff;
-// }
-// .swiper-slide {
-//     display: -webkit-box;
-//     display: -ms-flexbox;
-//     display: -webkit-flex;
-//     display: flex;
-//     -webkit-box-pack: center;
-//     -ms-flex-pack: center;
-//     -webkit-justify-content: center;
-//     justify-content: center;
-//     -webkit-box-align: center;
-//     -ms-flex-align: center;
-//     -webkit-align-items: center;
-//     align-items: center;
-// }
+.swiper-container {
+    padding-bottom: 60px;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 0;
+  line-height: 0;
+}
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 3px;
+  border-radius: 0;
+}
+.swiper-pagination {
+  text-align: left;
+  padding-left: 26px;
+}
+.swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+.swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
