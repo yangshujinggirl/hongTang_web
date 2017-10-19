@@ -84,12 +84,12 @@
           -webkit-transition: all 0.8s;
           -o-transition: all 0.8s;
           &:hover {
-            transform: scale(1.4);
-            -moz-transform: scale(1.4);
-            -webkit-transform: scale(1.4);
-            -o-transform: scale(1.4);
-            filter: brightness(.5);
-            -webkit-filter: brightness(.5);
+            transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            filter: brightness(.7);
+            -webkit-filter: brightness(.7);
           }
         }
       }

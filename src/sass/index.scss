@@ -60,13 +60,12 @@ html,body {
         .more {
           display: block;
           color: #fff;
-          padding-top: 50px;
+          padding-top: 26px;
         }
         .info {
           padding-top: 10px;
-          display: -webkit-box;
-          -webkit-box-orient: vertical;
-          -webkit-line-clamp: 2;
+          width: 100%;
+          height: 66px;
           overflow: hidden;
 
         }
@@ -79,7 +78,7 @@ html,body {
       }
       .r-p {
         width: 64%;
-        background-color: #004a94;
+        background-color: #0067be;
       }
       .en {
         font-size: 24px;
@@ -123,7 +122,7 @@ html,body {
   }
 }
 .swiper-container {
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 .swiper-container-horizontal>.swiper-pagination-bullets,
 .swiper-pagination-custom,
