@@ -1,0 +1,324 @@
+.team-pages {
+  background-color: #000;
+  position: relative;
+  img {
+    width: 100%;
+    vertical-align: top;
+  }
+  .team-head {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 44;
+    .nav-wrap {
+      width: 97%;
+      height: 64px;
+      margin: 0 auto;
+    }
+    .left-logo {
+      width: 166px;
+      height: 64px;
+      background:url('../imgs/common/logo.png') left center no-repeat;
+      float: left;
+    }
+    .right-nav {
+      height: 100%;
+      float: right;
+      .nav-item {
+        font-size:16px;
+        height: 100%;
+        line-height: 64px;
+        display: inline-block;
+        position: relative;
+        border-bottom: 1px solid transparent;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        &:not(:first-child) {
+          margin-left: 72px;
+        }
+        &.selected,
+        &:hover {
+          .one-leve{
+            position: relative;
+             &:after {
+              content:'';
+              position: absolute;
+              left: 50%;
+              bottom:0;
+              transform: translate(-50%);
+              -webkit-transform: translate(-50%);
+              background:#fff;
+              width:20px;
+              height:2px;
+            }
+           }
+          .two-leve {
+            display: block;
+          }
+        }
+      }
+      .one-leve {
+        color:#fff;
+        display: block;
+        line-height: 64px;
+      }
+      .two-leve {
+        text-align: center;
+        display: none;
+        background-color: #fff;
+        border:1px solid #d8d8d8;
+        width:118px;
+        position: absolute;
+        bottom:0;
+        left: 50%;
+        transform: translate(-50%,90%);
+        -webkit-transform: translate(-50%,90%);
+        z-index: 88;
+        .two-item {
+          font-size: 14px;
+          color: #666;
+          display: block;
+          padding: 8px 0;
+          &:hover {
+            color:#333;
+          }
+        }
+      }
+    }
+  }
+  .team-list {
+    height: 1830px;
+    background: url('../imgs/newTeam/bg.jpg') no-repeat left 440px;
+  }
+  .item-wrap {
+    top:0;
+    left: 12%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    .item {
+      position: absolute;
+      cursor: pointer;
+      &:hover {
+        .person-info{
+          display: block;
+        }
+        .post {
+          background-color:rgba(162,113,84,.4) ;
+        }
+      }
+    }
+    .person-info {
+      display: none;
+      position: absolute;
+      left: 0;
+      top:0;
+      transform: translate(-100%,0);
+      width: 100%;
+      height:100%;
+      background-color: #fff;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      padding: 40px 30px 0 30px;
+      font-size: 16px;
+    }
+    .post {
+      font-size: 14px;
+      color: #fff;
+      position: absolute;
+      left: 0;
+      top:0;
+      width: 100%;
+      height: 100%;
+      .post-wp {
+        position: absolute;
+        bottom: 20px;
+        left: 16px;
+      }
+      .name {
+        font-size: 20px;
+      }
+    }
+  }
+  .zby {
+    left: 375px;
+    top:0;
+  }
+  .title {
+    left: 0;
+    top:236px;
+  }
+  .fjy {
+    left:43%;
+    left:577px;
+    top:252px;
+  }
+  .wjf {
+    left: 889px;
+    top:252px;
+  }
+  .czx {
+    left:1px;
+    top:554px;
+  }
+  .zrr {
+    left: 283px;
+    top:550px;
+    z-index: 11;
+  }
+  .wr {
+    left: 740px;
+    top:554px;
+    z-index: 44;
+  }
+  .ns {
+    top:898px;
+    left:636px;
+    z-index: 33;
+  }
+  .yy {
+    top:963px;
+    left: 265px;
+    z-index: 22;
+  }
+  .yangyang {
+    left:30px;
+    top: 994px;
+    z-index: 11;
+  }
+  .zlj {
+    left: 120px;
+    top:1298px;
+    z-index: 11;
+  }
+  .pyd {
+    left: 500px;
+    top:1210px;
+    z-index: 22;
+  }
+  .hqm {
+   top:1145px;
+   left:835px;
+   z-index: 44;
+  }
+  .ljd  {
+    top:1510px;
+    left: 726px;
+    z-index: 33;
+  }
+  .components-footer {
+    background-color: #fff;
+  }
+
+  .shake {
+    animation: shake 1.5s;
+    -o-animation: shake 1.5s;
+    -webkit-animation: shake 1.5s;
+    -moz-animation: shake 1.5s;
+  }
+  @keyframes shake {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+      -webkit-transform: translateX(-5px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+      -webkit-transform: translateX(5px);
+    }
+  }
+
+  @-o-keyframes shake {
+    /* Opera */
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+      -webkit-transform: translateX(-3px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+      -webkit-transform: translateX(3px);
+    }
+  }
+
+  @-webkit-keyframes shake {
+    /* Safari 和 Chrome */
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+    }
+    5%,
+    15%,
+    25%,
+    35%,
+    45%,
+    55%,
+    65%,
+    75%,
+    85%,
+    95%
+
+    // 10%,
+    // 30%,
+    // 50%,
+    // 70%,
+    {
+      -webkit-transform: translateX(-3px);
+    }
+    10%,
+    20%,
+    30%,
+    40%,
+    50%,
+    60%,
+    70%,
+    80%,
+    90%
+
+    // 20%,
+    // 40%,
+    // 60%,
+     {
+      -webkit-transform: translateX(3px);
+    }
+  }
+
+  @-moz-keyframes shake {
+    /* Firefox */
+    0%,
+    100% {
+      -moz-transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+      -moz-transform: translateX(-3px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+      -moz-transform: translateX(3px);
+    }
+  }
+}
