@@ -19,6 +19,9 @@
         bottom: 0;
         transform: translateX(-50%);
         -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);       /* for Firefox */
+        -ms-transform: translateX(-50%);        /* for IE */
+        -o-transform: translateX(-50%);
       }
     }
     .group-list {
@@ -29,11 +32,8 @@
         display: block;
         padding:30px;
         cursor: pointer;
-        border-top: 1px solid rgba(0,0,0,0);
-        border-bottom: 1px solid rgba(0,0,0,0);
         &:hover {
-          border-bottom: 1px solid #ededed;
-          border-top: 1px solid #ededed;
+          box-shadow: 0 0 10px rgba(0,0,0,.3);
           .left-content {
             background-color: #00a0e9;
             color: #fff;

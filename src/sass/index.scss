@@ -20,6 +20,9 @@ html,body {
     top:0;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);       /* for Firefox */
+    -ms-transform: translateX(-50%);        /* for IE */
+    -o-transform: translateX(-50%);
   }
   .content-wrap {
     position: absolute;
@@ -27,6 +30,9 @@ html,body {
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);       /* for Firefox */
+    -ms-transform: translateX(-50%);        /* for IE */
+    -o-transform: translateX(-50%);
     width: 1200px;
     .module-list {
       font-size: 0;

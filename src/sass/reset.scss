@@ -101,7 +101,10 @@ a {
             left: 50%;
             bottom:0;
             transform: translate(-50%);
-            -webkit-transform: translate(-50%);
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);       /* for Firefox */
+            -ms-transform: translateX(-50%);        /* for IE */
+            -o-transform: translateX(-50%);
             background:#fff;
             width:20px;
             height:2px;
@@ -128,6 +131,9 @@ a {
       left: 50%;
       transform: translate(-50%,90%);
       -webkit-transform: translate(-50%,90%);
+      -moz-transform: translate(-50%,90%);       /* for Firefox */
+      -ms-transform: translate(-50%,90%);        /* for IE */
+      -o-transform: translate(-50%,90%);
       z-index: 88;
       .two-item {
         font-size: 14px;
@@ -151,6 +157,9 @@ a {
     top:0;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);       /* for Firefox */
+    -ms-transform: translateX(-50%);        /* for IE */
+    -o-transform: translateX(-50%);
   }
   .texts {
     width: 100%;
@@ -161,6 +170,9 @@ a {
     top:50%;
     transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);;       /* for Firefox */
+    -ms-transform: translate(-50%,-50%);;        /* for IE */
+    -o-transform: translate(-50%,-50%);;
     .text-title {
       font-size: 46px;
     }

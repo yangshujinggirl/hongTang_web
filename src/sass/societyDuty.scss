@@ -23,6 +23,9 @@
         bottom: 0;
         transform: translateX(-50%);
         -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);       /* for Firefox */
+        -ms-transform: translateX(-50%);        /* for IE */
+        -o-transform: translateX(-50%);
       }
     }
     .info-text {
