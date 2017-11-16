@@ -13,6 +13,6 @@ $(function() {
         paginationClickable: true,
         autoplay : 5000
     });
-    $('.slogin').stop().animate({top:'35%'},2000);
-    $('.content-wrap').stop().animate({bottom:'20px'},2000);
+    $('.slogin').stop().animate({top:'30%'},2000);
+    $('.content-wrap').stop().animate({bottom:'10px'},2000);
 });

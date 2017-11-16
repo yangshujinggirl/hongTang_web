@@ -1,10 +1,7 @@
 .team-pages {
   background-color: #000;
   position: relative;
-  img {
-    width: 100%;
-    vertical-align: top;
-  }
+
   .team-head {
     width: 100%;
     color: #fff;
@@ -108,6 +105,10 @@
     .item {
       position: absolute;
       cursor: pointer;
+      img {
+        width: 100%;
+        vertical-align: top;
+      }
       &:hover {
         .person-info{
           display: block;
@@ -125,8 +126,7 @@
       transform: translate(-100%,0);
       width: 100%;
       height:100%;
-      background-color: #955f44;
-      color: #fff;
+      background-color: #fff;
       box-sizing: border-box;
       -webkit-box-sizing: border-box;
       padding: 20px 25px 0 25px;
@@ -214,9 +214,9 @@
     // top:1210px;
     // z-index: 22;
   }
-  .hqm {
-   top:1190px;
-   left:835px;
+  .hbl {
+   top:1200px;
+   left:790px;
    z-index: 33;
   }
   .ljd  {
