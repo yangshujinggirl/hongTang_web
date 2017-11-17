@@ -9,7 +9,8 @@ div,p {
   line-height: 150%;
 }
 body ,html{
-  font-family: 'Helvetica Neue', Helvetica, Arial, 'Microsoft YaHei', SimHei, sans-serif;
+  // font-family: 'Helvetica Neue', Helvetica, Arial, 'Microsoft YaHei', SimHei, sans-serif;
+  font-family: 'PingFang SC','Helvetica Neue', Helvetica, Arial, 'Microsoft YaHei', SimHei, sans-serif;
   font-size: 14px;
   color: #666;
 }
@@ -47,7 +48,7 @@ a {
   z-index: 9999;
   .nav-wrap {
     width: 97%;
-    height: 64px;
+    height: 70px;
     margin: 0 auto;
   }
   &.solid {
@@ -71,8 +72,8 @@ a {
     }
   }
   .left-logo {
-    width: 166px;
-    height: 64px;
+    width: 170px;
+    height: 70px;
     background:url('../imgs/common/logo.png') left center no-repeat;
     float: left;
   }
@@ -82,7 +83,7 @@ a {
     .nav-item {
       font-size:16px;
       height: 100%;
-      line-height: 64px;
+      line-height: 70px;
       display: inline-block;
       position: relative;
       border-bottom: 1px solid transparent;
@@ -118,7 +119,7 @@ a {
     .one-leve {
       color:#fff;
       display: block;
-      line-height: 64px;
+      line-height: 70px;
     }
     .two-leve {
       text-align: center;
@@ -149,6 +150,8 @@ a {
 }
 //banner样式
 .components-banner {
+  width: 100%;
+  overflow: hidden;
   height: 420px;
   position: relative;
   .banner {

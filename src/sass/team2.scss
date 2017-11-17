@@ -1,7 +1,7 @@
 .team-pages {
   background-color: #000;
   position: relative;
-
+  overflow: hidden;
   .team-head {
     width: 100%;
     color: #fff;
@@ -11,12 +11,12 @@
     z-index: 44;
     .nav-wrap {
       width: 97%;
-      height: 64px;
+      height: 70px;
       margin: 0 auto;
     }
     .left-logo {
-      width: 166px;
-      height: 64px;
+      width: 170px;
+      height: 70px;
       background:url('../imgs/common/logo.png') left center no-repeat;
       float: left;
     }
@@ -26,7 +26,7 @@
       .nav-item {
         font-size:16px;
         height: 100%;
-        line-height: 64px;
+        line-height: 70px;
         display: inline-block;
         position: relative;
         border-bottom: 1px solid transparent;
@@ -62,7 +62,7 @@
       .one-leve {
         color:#fff;
         display: block;
-        line-height: 64px;
+        line-height: 70px;
       }
       .two-leve {
         text-align: center;
@@ -218,6 +218,11 @@
    top:1200px;
    left:790px;
    z-index: 33;
+  }
+  .lf {
+    left: 320px;
+    top:1480px;
+    z-index: 11;
   }
   .ljd  {
     top:1490px;

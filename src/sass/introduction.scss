@@ -39,6 +39,8 @@
   }
   .bg-wrap {
     position: relative;
+    overflow: hidden;
+    width: 100%;
     height: 630px;
     img {
       position: absolute;

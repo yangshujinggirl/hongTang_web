@@ -14,5 +14,5 @@ $(function() {
         autoplay : 5000
     });
     $('.slogin').stop().animate({top:'30%'},2000);
-    $('.content-wrap').stop().animate({bottom:'10px'},2000);
+    $('.content-wrap').stop().animate({bottom:'2%'},2000);
 });
